@@ -39,7 +39,7 @@ apis:
   tags: Conversations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-unarchive-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-list-get.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
