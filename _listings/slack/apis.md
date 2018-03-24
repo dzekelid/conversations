@@ -25,9 +25,9 @@ tags:
 - Chat
 - Change Log Example
 - Change Log
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/conversations/master/_listings/slack/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Slack
@@ -39,7 +39,7 @@ apis:
   tags: Conversations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/conversations/master/_listings/slack/conversations-replies-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-close-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
