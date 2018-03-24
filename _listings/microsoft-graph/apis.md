@@ -18,9 +18,9 @@ tags:
 - Files
 - Email
 - Contact
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/conversations/master/_listings/microsoft-graph/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/microsoft-graph/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Microsoft Graph API
@@ -32,7 +32,7 @@ apis:
   tags: Conversations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/conversations/master/_listings/microsoft-graph/groups-id-conversations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/microsoft-graph/groups-id-conversations-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
