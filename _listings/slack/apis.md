@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-replies-get.md
-- name: Slack Open Dialog
-  description: Open a dialog with a user
+- name: Slack Invite User To Conversation
+  description: Invites users to a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Conversations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/dialog-open-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-invite-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/dialog-open-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-invite-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
