@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-replies-get.md
-- name: Slack Join Conversation
-  description: Joins an existing conversation.
+- name: Slack Create Conversation
+  description: Initiates a public or private channel-based conversation
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Conversations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-join-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-create-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-join-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-create-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
