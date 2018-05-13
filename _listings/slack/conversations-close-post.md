@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Slack
-  description: One way to interact with the Slack platform is its HTTP RPC-based Web
-    API, a collection of methods requiring OAuth 2.0-based user, bot, or workspace
-    tokens blessed with related OAuth scopes.
+  title: Slack Close Conversation
+  description: Closes a direct message or multi-person direct message.
   version: 1.0.3
 host: slack.com
 basePath: /api
