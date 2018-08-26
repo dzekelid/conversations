@@ -34,4 +34,25 @@ paths:
       tags:
       - List
       - Conversations
+    post:
+      summary: Create Conversation
+      description: Create Conversation Create a new conversation by including a thread
+        and a post.
+      operationId: CreateConversation
+      x-api-path-slug: groupsidconversations-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer %token%
+      - in: header
+        name: Content-Type
+        description: application/json
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversation
 ---

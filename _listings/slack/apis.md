@@ -11,245 +11,270 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Conversations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Slack Close Conversation
-  x-api-slug: slack
+- name: Slack - Close Conversation
+  x-api-slug: conversations-close-post
   description: Closes a direct message or multi-person direct message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.close
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-close-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-close-post-openapi.md
-- name: Slack Join Conversation
-  x-api-slug: slack
+- name: Slack - Join Conversation
+  x-api-slug: conversations-join-post
   description: Joins an existing conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.join
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-join-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-join-post-openapi.md
-- name: Slack Create Conversation
-  x-api-slug: slack
+- name: Slack - Create Conversation
+  x-api-slug: conversations-create-post
   description: Initiates a public or private channel-based conversation
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.create
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-create-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-create-post-openapi.md
-- name: Slack Unarchve Conversation
-  x-api-slug: slack
+- name: Slack - Unarchve Conversation
+  x-api-slug: conversations-unarchive-post
   description: Reverses conversation archival.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.unarchive
-  tags: Messaging,Conversations, Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-unarchive-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-unarchive-post-openapi.md
-- name: Slack List Conversations
-  x-api-slug: slack
+- name: Slack - List Conversations
+  x-api-slug: conversations-list-get
   description: Lists all channels in a Slack team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.list
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-list-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-list-get-openapi.md
-- name: Slack Set Conversation Topic
-  x-api-slug: slack
+- name: Slack - Set Conversation Topic
+  x-api-slug: conversations-settopic-post
   description: Sets the topic for a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.setTopic
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-settopic-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-settopic-post-openapi.md
-- name: Slack Get Conversation Members
-  x-api-slug: slack
+- name: Slack - Get Conversation Members
+  x-api-slug: conversations-members-get
   description: Retrieve members of a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.members
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-members-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-members-get-openapi.md
-- name: Slack Open Conversation
-  x-api-slug: slack
+- name: Slack - Open Conversation
+  x-api-slug: conversations-open-post
   description: Opens or resumes a direct message or multi-person direct message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.open
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-open-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-open-post-openapi.md
-- name: Slack Leave Conversation
-  x-api-slug: slack
+- name: Slack - Leave Conversation
+  x-api-slug: conversations-leave-post
   description: Leaves a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.leave
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-leave-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-leave-post-openapi.md
-- name: Slack Remove User From Conversation
-  x-api-slug: slack
+- name: Slack - Remove User From Conversation
+  x-api-slug: conversations-kick-post
   description: Removes a user from a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.kick
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-kick-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-kick-post-openapi.md
-- name: Slack Rename Conversation
-  x-api-slug: slack
+- name: Slack - Rename Conversation
+  x-api-slug: conversations-rename-post
   description: Renames a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.rename
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-rename-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-rename-post-openapi.md
-- name: Slack Get Conversation History
-  x-api-slug: slack
+- name: Slack - Get Conversation History
+  x-api-slug: conversations-history-get
   description: Fetches a conversation's history of messages and events.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.history
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-history-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-history-get-openapi.md
-- name: Slack Set Conversation Purpose
-  x-api-slug: slack
+- name: Slack - Set Conversation Purpose
+  x-api-slug: conversations-setpurpose-post
   description: Sets the purpose for a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.setPurpose
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-setpurpose-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-setpurpose-post-openapi.md
-- name: Slack Get Conversation
-  x-api-slug: slack
+- name: Slack - Get Conversation
+  x-api-slug: conversations-info-get
   description: Retrieve information about a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.info
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-info-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-info-get-openapi.md
-- name: Slack Open Dialog
-  x-api-slug: slack
+- name: Slack - Open Dialog
+  x-api-slug: dialog-open-get
   description: Open a dialog with a user
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//dialog.open
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/dialog-open-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/dialog-open-get-openapi.md
-- name: Slack Invite User To Conversation
-  x-api-slug: slack
+- name: Slack - Invite User To Conversation
+  x-api-slug: conversations-invite-post
   description: Invites users to a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.invite
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-invite-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-invite-post-openapi.md
-- name: Slack Archive Conversation
-  x-api-slug: slack
+- name: Slack - Archive Conversation
+  x-api-slug: conversations-archive-post
   description: Archives a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.archive
-  tags: Messaging,Conversations, Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-archive-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-archive-post-openapi.md
-- name: Slack Reply Conversation
-  x-api-slug: slack
+- name: Slack - Reply Conversation
+  x-api-slug: conversations-replies-get
   description: Retrieve a thread of messages posted to a conversation
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.replies
-  tags: Messaging,Conversations
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-replies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/conversations-replies-get-openapi.md
-- name: Slack
-  x-api-slug: slack
-  description: Slack is a team communication application providing services such as
-    real-time messaging, archiving, and to search for modern teams. It offers one-on-one
-    messaging, private groups, persistent chat rooms, and direct messaging as well
-    as group chats organized by topic. All content inside Slack is searchable from
-    one search box and it integrates with a number of third-party services, including
-    Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
-  humanURL: https://api.slack.com
-  baseURL: https://slack.com//api
-  tags: Conversations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/slack/openapi.md
 x-common:
 - type: x-website
   url: https://api.slack.com
+- type: x-api-gallery
+  url: http://site24x7.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://slack.stack.network
 - type: x-application-gallery
   url: https://slack.com/apps
 - type: x-blog
