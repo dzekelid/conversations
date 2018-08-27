@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post My Conversations Conversation Messages
+  title: Reverb Post My Conversations Conversation Messages
   description: Post my conversations conversation messages.
   termsOfService: https://reverb.com/page/terms
   contact:
@@ -150,6 +150,43 @@ paths:
       - Conversation
       - Id
       - Messages
+  /my/conversations/{id}:
+    get:
+      summary: Get My Conversations
+      description: Display conversation details with messages in natural time order
+        (oldest to newest)
+      operationId: getMyConversations
+      x-api-path-slug: myconversationsid-get
+      parameters:
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - My
+      - Conversations
+      - Id
+    put:
+      summary: Put My Conversations
+      description: Mark a conversation read/unread
+      operationId: putMyConversations
+      x-api-path-slug: myconversationsid-put
+      parameters:
+      - in: body
+        name: body
+        description: the content of the request
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - My
+      - Conversations
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

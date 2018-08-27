@@ -192,6 +192,199 @@ paths:
       tags:
       - Archive
       - Conversation
+  /site/{cloudId}/conversation/{conversationId}/message:
+    get:
+      summary: Get conversation history
+      description: "Authentication required, with scope participate:conversation This
+        method returns messages after/before a given messageIDs or/and timestamps.
+        If these parameters are omitted the method returns conversation\u2019s latest
+        messages. Max number of messages returned is 75."
+      operationId: ConversationMessagesGetHandler
+      x-api-path-slug: sitecloudidconversationconversationidmessage-get
+      parameters:
+      - in: query
+        name: afterMessage
+        description: Returns at most 75 latest messages after a provided messageID
+      - in: query
+        name: afterTimestamp
+        description: Returns at most 75 latest messages after a provided RFC3339 timestamp
+          (2006-01-02T15:04:05+07:00)
+      - in: query
+        name: beforeMessage
+        description: Returns at most 75 messages before a provided messageID
+      - in: query
+        name: beforeTimestamp
+        description: Returns at most 75 messages before a provided RFC3339 timestamp
+          (2006-01-02T15:04:05+07:00)
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      - in: query
+        name: limit
+        description: The maximum number of results
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversation
+      - History
+    post:
+      summary: Send a message to a conversation
+      description: Send a message to a conversation.
+      operationId: ConversationMessagePostHandler
+      x-api-path-slug: sitecloudidconversationconversationidmessage-post
+      parameters:
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Send
+      - Message
+      - To
+      - Conversation
+  /site/{cloudId}/conversation/{conversationId}/message/{messageId}:
+    put:
+      summary: Edit a message in a conversation
+      description: Authentication required, with scope participate:conversation
+      operationId: ConversationMessagePutHandler
+      x-api-path-slug: sitecloudidconversationconversationidmessagemessageid-put
+      parameters:
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      - in: path
+        name: messageId
+        description: The ID of the message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Edit
+      - Message
+      - In
+      - Conversation
+    delete:
+      summary: Delete a message in a conversation
+      description: Authentication required, with scope participate:conversation
+      operationId: ConversationMessageDeleteHandler
+      x-api-path-slug: sitecloudidconversationconversationidmessagemessageid-delete
+      parameters:
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      - in: path
+        name: messageId
+        description: The ID of the message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Message
+      - In
+      - Conversation
+  /site/{cloudId}/conversation/{conversationId}/message/{messageId}/context:
+    get:
+      summary: Get conversation history contextually
+      description: Authentication required, with scope participate:conversation This
+        method returns messages after and/or before a given messageID including the
+        message itself. Default value for 'after' and 'before' query parameters is
+        0. Max number of messages returned is 75.
+      operationId: ConversationContextMessagesGetHandler
+      x-api-path-slug: sitecloudidconversationconversationidmessagemessageidcontext-get
+      parameters:
+      - in: query
+        name: after
+        description: A number of messages to return after the Message
+      - in: query
+        name: before
+        description: A number of messages to return before the Message
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      - in: path
+        name: messageId
+        description: The ID of the Message to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversation
+      - History
+      - Contextually
+  /site/{cloudId}/conversation/{conversationId}/roster:
+    get:
+      summary: Get conversation roster
+      description: Authentication required, with scope participate:conversation
+      operationId: ConversationRosterGetHandler
+      x-api-path-slug: sitecloudidconversationconversationidroster-get
+      parameters:
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversation
+      - Roster
+    patch:
+      summary: Update a conversation roster
+      description: Authentication required, with scope manage:conversation
+      operationId: PatchRosterHandler
+      x-api-path-slug: sitecloudidconversationconversationidroster-patch
+      parameters:
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversation
+      - Roster
+  /site/{cloudId}/conversation/{conversationId}/unarchive:
+    put:
+      summary: Unarchive conversation
+      description: Authentication required, with scope manage:conversation
+      operationId: ConversationUnarchivePutHandler
+      x-api-path-slug: sitecloudidconversationconversationidunarchive-put
+      parameters:
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Unarchive
+      - Conversation
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

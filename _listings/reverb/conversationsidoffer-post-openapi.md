@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post Conversations Offer
+  title: Reverb Post Conversations Offer
   description: Make an offer to the other participant in the conversation
   termsOfService: https://reverb.com/page/terms
   contact:

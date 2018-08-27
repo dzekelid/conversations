@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post Listings Listing Conversations
+  title: Reverb Post Listings Listing Conversations
   description: Post listings listing conversations.
   termsOfService: https://reverb.com/page/terms
   contact:

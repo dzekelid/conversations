@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Conversations
+  title: Reverb Get My Conversations
   description: Display conversation details with messages in natural time order (oldest
     to newest)
   termsOfService: https://reverb.com/page/terms

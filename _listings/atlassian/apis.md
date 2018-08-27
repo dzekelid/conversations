@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Conversations
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -243,6 +243,222 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-openapi.md
+- name: Stride API - Unarchive conversation
+  x-api-slug: sitecloudidconversationconversationidunarchive-put
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-openapi.md
+- name: Stride API - Update a conversation roster
+  x-api-slug: sitecloudidconversationconversationidroster-patch
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-patch-openapi.md
+- name: Stride API - Get conversation roster
+  x-api-slug: sitecloudidconversationconversationidroster-get
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-get-openapi.md
+- name: Stride API - Get conversation history contextually
+  x-api-slug: sitecloudidconversationconversationidmessagemessageidcontext-get
+  description: Authentication required, with scope participate:conversation This method
+    returns messages after and/or before a given messageID including the message itself.
+    Default value for 'after' and 'before' query parameters is 0. Max number of messages
+    returned is 75.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageidcontext-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageidcontext-get-openapi.md
+- name: Stride API - Delete a message in a conversation
+  x-api-slug: sitecloudidconversationconversationidmessagemessageid-delete
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-delete-openapi.md
+- name: Stride API - Edit a message in a conversation
+  x-api-slug: sitecloudidconversationconversationidmessagemessageid-put
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-put-openapi.md
+- name: Stride API - Send a message to a conversation
+  x-api-slug: sitecloudidconversationconversationidmessage-post
+  description: Send a message to a conversation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-post-openapi.md
+- name: Stride API - Get conversation history
+  x-api-slug: sitecloudidconversationconversationidmessage-get
+  description: "Authentication required, with scope participate:conversation This
+    method returns messages after/before a given messageIDs or/and timestamps. If
+    these parameters are omitted the method returns conversation\u2019s latest messages.
+    Max number of messages returned is 75."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-get-openapi.md
+- name: Stride API - Archive conversation
+  x-api-slug: sitecloudidconversationconversationidarchive-put
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidarchive-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidarchive-put-openapi.md
+- name: Stride API - Update conversation
+  x-api-slug: sitecloudidconversationconversationid-patch
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-patch-openapi.md
+- name: Stride API - Get conversation details
+  x-api-slug: sitecloudidconversationconversationid-get
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-get-openapi.md
+- name: Stride API - Delete a message in a direct conversation
+  x-api-slug: sitecloudidconversationuseruseridmessagemessageid-delete
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-delete-openapi.md
+- name: Stride API - Edit a message in a direct conversation
+  x-api-slug: sitecloudidconversationuseruseridmessagemessageid-put
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-put-openapi.md
+- name: Stride API - Get a direct conversation of a user
+  x-api-slug: sitecloudidconversationuseruserid-get
+  description: Get a direct conversation of a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruserid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruserid-get-openapi.md
+- name: Stride API - Create conversation
+  x-api-slug: sitecloudidconversation-post
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversation-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversation-post-openapi.md
 - name: Stride API - Get a list of conversations
   x-api-slug: sitecloudidconversation-get
   description: The API returns the list of conversations the app has access to Authentication
@@ -474,6 +690,306 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-openapi.md
+- name: Stride API - Unarchive conversation
+  x-api-slug: sitecloudidconversationconversationidunarchive-put
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidunarchive-put-openapi.md
+- name: Stride API - Update a conversation roster
+  x-api-slug: sitecloudidconversationconversationidroster-patch
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-patch-openapi.md
+- name: Stride API - Get conversation roster
+  x-api-slug: sitecloudidconversationconversationidroster-get
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidroster-get-openapi.md
+- name: Stride API - Get conversation history contextually
+  x-api-slug: sitecloudidconversationconversationidmessagemessageidcontext-get
+  description: Authentication required, with scope participate:conversation This method
+    returns messages after and/or before a given messageID including the message itself.
+    Default value for 'after' and 'before' query parameters is 0. Max number of messages
+    returned is 75.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageidcontext-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageidcontext-get-openapi.md
+- name: Stride API - Delete a message in a conversation
+  x-api-slug: sitecloudidconversationconversationidmessagemessageid-delete
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-delete-openapi.md
+- name: Stride API - Edit a message in a conversation
+  x-api-slug: sitecloudidconversationconversationidmessagemessageid-put
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessagemessageid-put-openapi.md
+- name: Stride API - Send a message to a conversation
+  x-api-slug: sitecloudidconversationconversationidmessage-post
+  description: Send a message to a conversation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-post-openapi.md
+- name: Stride API - Get conversation history
+  x-api-slug: sitecloudidconversationconversationidmessage-get
+  description: "Authentication required, with scope participate:conversation This
+    method returns messages after/before a given messageIDs or/and timestamps. If
+    these parameters are omitted the method returns conversation\u2019s latest messages.
+    Max number of messages returned is 75."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidmessage-get-openapi.md
+- name: Stride API - Archive conversation
+  x-api-slug: sitecloudidconversationconversationidarchive-put
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidarchive-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationidarchive-put-openapi.md
+- name: Stride API - Update conversation
+  x-api-slug: sitecloudidconversationconversationid-patch
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-patch-openapi.md
+- name: Stride API - Update conversation
+  x-api-slug: sitecloudidconversationconversationid-patch
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-patch-openapi.md
+- name: Stride API - Get conversation details
+  x-api-slug: sitecloudidconversationconversationid-get
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-get-openapi.md
+- name: Stride API - Get conversation details
+  x-api-slug: sitecloudidconversationconversationid-get
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationconversationid-get-openapi.md
+- name: Stride API - Delete a message in a direct conversation
+  x-api-slug: sitecloudidconversationuseruseridmessagemessageid-delete
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-delete-openapi.md
+- name: Stride API - Delete a message in a direct conversation
+  x-api-slug: sitecloudidconversationuseruseridmessagemessageid-delete
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-delete-openapi.md
+- name: Stride API - Edit a message in a direct conversation
+  x-api-slug: sitecloudidconversationuseruseridmessagemessageid-put
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-put-openapi.md
+- name: Stride API - Edit a message in a direct conversation
+  x-api-slug: sitecloudidconversationuseruseridmessagemessageid-put
+  description: Authentication required, with scope participate:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruseridmessagemessageid-put-openapi.md
+- name: Stride API - Get a direct conversation of a user
+  x-api-slug: sitecloudidconversationuseruserid-get
+  description: Get a direct conversation of a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruserid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruserid-get-openapi.md
+- name: Stride API - Get a direct conversation of a user
+  x-api-slug: sitecloudidconversationuseruserid-get
+  description: Get a direct conversation of a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruserid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversationuseruserid-get-openapi.md
+- name: Stride API - Create conversation
+  x-api-slug: sitecloudidconversation-post
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversation-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversation-post-openapi.md
+- name: Stride API - Create conversation
+  x-api-slug: sitecloudidconversation-post
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversation-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/atlassian/sitecloudidconversation-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

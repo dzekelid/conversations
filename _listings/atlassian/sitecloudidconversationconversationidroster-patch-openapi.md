@@ -366,6 +366,25 @@ paths:
       tags:
       - Conversation
       - Roster
+  /site/{cloudId}/conversation/{conversationId}/unarchive:
+    put:
+      summary: Unarchive conversation
+      description: Authentication required, with scope manage:conversation
+      operationId: ConversationUnarchivePutHandler
+      x-api-path-slug: sitecloudidconversationconversationidunarchive-put
+      parameters:
+      - in: path
+        name: cloudId
+        description: The id of the site (cloudId)
+      - in: path
+        name: conversationId
+        description: The conversation id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Unarchive
+      - Conversation
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

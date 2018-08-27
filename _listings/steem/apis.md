@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-stee
 x-kinRank: "7"
 x-alexaRank: "138048"
 tags: Conversations
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/steem/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Interactive Steem API - get conversation
+  x-api-slug: get-conversion-requests-get
+  description: get conversation requests of account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg
+  humanURL: http://steemit.com
+  baseURL: https://api.steemjs.com//
+  tags: Technology, SaaS, Blockchain, Content
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/steem/get-conversion-requests-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/steem/get-conversion-requests-get-openapi.md
 - name: Interactive Steem API - get conversation
   x-api-slug: get-conversion-requests-get
   description: get conversation requests of account

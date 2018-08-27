@@ -12,11 +12,36 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Conversations
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Microsoft Graph API - List Conversations
+  x-api-slug: groupsidconversations-get
+  description: List conversations Retrieve the list of conversations in this group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/microsoft-graph/groupsidconversations-get-openapi.md
+- name: Microsoft Graph API - Create Conversation
+  x-api-slug: groupsidconversations-post
+  description: Create Conversation Create a new conversation by including a thread
+    and a post.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/microsoft-graph/groupsidconversations-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversations/master/_listings/microsoft-graph/groupsidconversations-post-openapi.md
 - name: Microsoft Graph API - Create Conversation
   x-api-slug: groupsidconversations-post
   description: Create Conversation Create a new conversation by including a thread

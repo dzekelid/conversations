@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Conversations
+  title: Reverb Get My Conversations
   description: Get a list of your conversations
   termsOfService: https://reverb.com/page/terms
   contact:
